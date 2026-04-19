@@ -23,6 +23,10 @@ main{
     margin: 10px;
 }
 
+section{
+    margin-bottom: 5px;
+}
+
 .imagen{
 
     height: 350px;
