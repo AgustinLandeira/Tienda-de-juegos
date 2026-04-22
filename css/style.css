@@ -1,20 +1,23 @@
 *{
     margin: 0;
     font-style: italic
+    
 }
 
-.Encabezado{
-    background-color:blue;
-    color: yellow;
+.Encabezado,.Encabezado__enlace,.juegos-recomendados,.Ranking,.Pie-pagina{
+    color: white;
 }
 
-.Encabezado__titulo{
+.Encabezado,.Pie-pagina,.Formulario__boton--resetear{
+    background-color:red;
+}
+
+.Encabezado__titulo,.Pie-pagina{
     text-align: center;
 }
 
 .Encabezado__enlace{
     text-decoration: none;
-    color: yellow;
 
 }
 
@@ -23,12 +26,16 @@
     
 }
 
+.juegos-recomendados{
+    background-color: black;
+}
+
 .juegos-recomendados__h3{
     margin-bottom: 5px;
 }
 
 .juegos-recomendados__subtitulo{
-    margin: 10px;
+    margin-left: 10px;
 }
 
 .juegos-recomendados__seccion{
@@ -40,18 +47,14 @@
 
     height: 350px;
     width: 350px;
-    border: 7px solid yellow;
+    border: 7px solid rgb(255, 0, 0);
 }
 
 .juegos-recomendados__parrafo{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.Formulario{
 
-    border: 10px solid gray;
-    margin-bottom: 10px;
-}
 
 .Formulario__boton{
     width: 100px;
@@ -66,14 +69,6 @@
     /* border: 4px solid green; */
 }
 
-.Formulario__boton--resetear{
-    background-color: red;
-}
-
-.Pie-pagina{
-    background-color: gray;
-    text-align: center;
-}
 
 .Pie-pagina__listado{
     list-style: none;
@@ -86,8 +81,6 @@
 
 
 .Ranking{
-    background-color:blue;
-    color: yellow;
     margin: 0px;
     margin-bottom: 10px;
     
@@ -100,14 +93,13 @@
     grid-template-columns: repeat(3,auto);/* 3 columnas, las columnas miden lo que necesite su contenido */
     justify-content: center; /*centra toda la grilla horizontalmente*/
     gap: 10px; /*espacio entre las fotos*/
-    
 
 }
 
 .Ranking__imagen{
     height: 250px;
     width: 350px;
-    border: 3px solid yellow;
+    border: 5px solid rgb(255, 0, 0);
 }
 
 .Ranking__enlace{
