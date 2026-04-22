@@ -9,7 +9,7 @@
 }
 
 .Encabezado,.Pie-pagina,.Formulario__boton--resetear{
-    background-color:red;
+    background-color:hsl(0, 100%, 50%);
 }
 
 .Encabezado__titulo,.Pie-pagina{
@@ -47,7 +47,7 @@
 
     height: 350px;
     width: 350px;
-    border: 7px solid rgb(255, 0, 0);
+    border: 7px solid hsl(0, 100%, 50%);
 }
 
 .juegos-recomendados__parrafo{
