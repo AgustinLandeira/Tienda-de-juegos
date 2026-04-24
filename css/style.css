@@ -11,12 +11,22 @@
     background-color:hsl(0, 100%, 50%);
 }
 
+.Encabezado__titulo{
+    padding-top:5px
+}
+
 .Encabezado__titulo,.Pie-pagina{
     text-align: center;
 }
 
 .Encabezado__enlace{
     text-decoration: none;
+
+}
+
+.Encabezado__enlace:hover{
+    background-color: black;
+    border-radius: 5px;
 
 }
 
@@ -27,19 +37,33 @@
 
 .juegos-recomendados{
     background-color: black;
+    text-align:center
 }
 
 .juegos-recomendados__h3{
     margin-bottom: 5px;
 }
 
+.Juegos-recomendados__contenedor{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    gap: 10px;
+}
+
 .juegos-recomendados__subtitulo{
     margin-left: 10px;
 }
 
-.juegos-recomendados__seccion{
-    margin: 10px;
+.juegos-recomendados__articulo{
+    /* margin: 10px;
     margin-bottom: 5px;
+    background-color: gray; */
+    margin: 20px auto;      /* centra horizontalmente */
+    background-color: gray;
+    max-width: 500px;       /* limita el ancho */
+    padding: 10px;          /* espacio interno */
+    border-radius:10px;
 }
 
 .juegos-recomendados__imagen{
@@ -78,13 +102,11 @@
     
 }
 
-
 .Ranking{
     margin: 0px;
     margin-bottom: 10px;
     
 }
-
 
 .Ranking__caja{
 

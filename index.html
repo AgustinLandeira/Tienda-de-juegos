@@ -5,85 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45b6a2b2fd.js" crossorigin="anonymous"></script>
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Juegos</title>
 </head>
 <body>
     
-    <header class="Encabezado"><!--Encabezado-->
+    <header id="Inicio" class="Encabezado"><!--Encabezado-->
 
-        <h1 class="Encabezado__titulo">Tienda de juegos</h1>
+        <h1 class="Encabezado__titulo animate__animated animate__backInLeft">Tienda de juegos</h1>
 
         <nav class="Encabezado__navegacion"> <!-- Seccion de navegacion -->
 
-            <ul class="Encabezado__lista"><!--Hago una lista desordenada-->
-                <li class="Encabezado__item"><a class="Encabezado__enlace" href="#Juegos-recomendados"> 🕹️ Juegos recomendados</a></li>
-                <li class="Encabezado__item"><a class="Encabezado__enlace"  href="#Ranking"> 🏆 Ranking de juegos mas jugados</a></li>
-                <li class="Encabezado__item" ><a class="Encabezado__enlace" href="#contacto">📬 Contacto</a></li>
+            <ul class="Encabezado__lista animate__animated animate__backInLeft" ><!--Hago una lista desordenada-->
+                <li class="Encabezado__item"><a class="Encabezado__enlace" href="#Inicio"> <i class="fa-solid fa-house" style="color: white;"></i> Inicio</a></li>
+                <li class="Encabezado__item"><a class="Encabezado__enlace" href="#Juegos-recomendados"> <i class="fa-solid fa-gamepad" style="color: white;"></i> Juegos recomendados</a></li>
+                <li class="Encabezado__item"><a class="Encabezado__enlace"  href="#Ranking"><i class="fa-solid fa-trophy" style="color:white;"></i> Ranking de juegos mas jugados</a></li>
+                <li class="Encabezado__item" ><a class="Encabezado__enlace" href="#contacto"><i class="fa-solid fa-phone" style="color: white;"></i>  Contacto</a></li>
             </ul>
 
         </nav>
 
     </header>
 
-    <main id="Juegos-recomendados" class="juegos-recomendados"> <!-- Tema principal -->
+    <main id="Juegos-recomendados" class="juegos-recomendados "> <!-- Tema principal -->
 
-        <h2 class="juegos-recomendados__subtitulo">Juegos que te recomendamos:</h2>
+        <h2 class="juegos-recomendados__subtitulo animate__animated animate__backInLeft">Juegos que te recomendamos:</h2>
 
-        <section class="juegos-recomendados__seccion" > <!--Secciones que agrupan eelementos relacionados -->
+        <section class="Juegos-recomendados__contenedor">
 
-            <h3 class="juegos-recomendados__h3">THE LAST OF US</h3>
+            <article class="juegos-recomendados__articulo animate__animated animate__backInLeft" > <!--Secciones que agrupan eelementos relacionados -->
 
-            <img class="juegos-recomendados__imagen"  src="img/The last of us.jpg" alt="Imagen no disponible">
+                <h3 class="juegos-recomendados__h3">THE LAST OF US</h3>
 
-            <p class="juegos-recomendados__parrafo">Descripcion del juego: Es un juego de aventura y supervivencia con una historia muy profunda y emotiva. Sigue la vida de personajes en un mundo postapocalíptico lleno de peligros.
-            </p>
-            <p class="juegos-recomendados__parrafo">Genero: Accion, Aventura, Supervivencia y Drama.</p>
-            <p class="juegos-recomendados__parrafo">Precio: $60.000</p>
+                <img class="juegos-recomendados__imagen"  src="img/The last of us.jpg" alt="Imagen no disponible">
 
-        </section>
+                <p class="juegos-recomendados__parrafo"><strong>Descripcion del juego:</strong> Es un juego de aventura y supervivencia con una historia muy profunda y emotiva. 
+                    
+                </p>
+                <p class="juegos-recomendados__parrafo"><strong>Genero:</strong> Accion, Aventura, Supervivencia y Drama.</p>
+                <p class="juegos-recomendados__parrafo"><strong>Precio:</strong> $60.000</p>
 
-        <section class="juegos-recomendados__seccion" >
+            </article>
 
-            <h3 class="juegos-recomendados__h3">GTA V</h3>
+            <article class="juegos-recomendados__articulo animate__animated animate__backInLeft" >
 
-            <img class="juegos-recomendados__imagen"  src="img/Gta.jpg" alt="Imagen no disponible">
+                <h3 class="juegos-recomendados__h3">GTA V</h3>
 
-            <p class="juegos-recomendados__parrafo">Descripcion del juego: Es un juego de mundo abierto donde podés explorar una ciudad enorme, realizar misiones y hacer prácticamente lo que quieras. 
-                Se destaca por su libertad, su historia y la cantidad de actividades disponibles.</p>
-            <p class="juegos-recomendados__parrafo">Genero: Accion, Aventura y Mundo abierto. </p>
-            <p class="juegos-recomendados__parrafo">Precio: $80.000</p>
+                <img class="juegos-recomendados__imagen"  src="img/Gta.jpg" alt="Imagen no disponible">
 
-        </section>
+                <p class="juegos-recomendados__parrafo"><strong>Descripcion del juego:</strong> Es un juego de mundo abierto donde podés explorar una ciudad enorme, realizar misiones y hacer prácticamente lo que quieras.</p>
+                <p class="juegos-recomendados__parrafo"><strong>Genero:</strong> Accion, Aventura y Mundo abierto. </p>
+                <p class="juegos-recomendados__parrafo"><strong>Precio:</strong> $80.000</p>
 
-        <section class="juegos-recomendados__seccion" >
+            </article>
 
-            <h3 class="juegos-recomendados__h3">Rocket League</h3>
+            <article class="juegos-recomendados__articulo animate__animated animate__backInLeft" >
 
-            <img class="juegos-recomendados__imagen"  src="img/Rocket_league.jpg" alt="Imagen no disponible">
+                <h3 class="juegos-recomendados__h3">Rocket League</h3>
 
-            <p class="juegos-recomendados__parrafo">Descripcion del juego: Es un juego que combina fútbol con autos, donde tenés que hacer goles manejando autos. Es rápido, divertido y requiere mucha habilidad y reflejos. Me gusta porque es muy competitivo
-                y divertido para jugar con tus amigos ya sea en un mismo equipo o equipos diferentes.
-            </p>
-            <p class="juegos-recomendados__parrafo">Genero: Deportes </p>
-            <p class="juegos-recomendados__parrafo">Precio: $10.000</p>
+                <img class="juegos-recomendados__imagen"  src="img/Rocket_league.jpg" alt="Imagen no disponible">
 
-        </section>
+                <p class="juegos-recomendados__parrafo"><strong>Descripcion del juego:</strong> Es un juego que combina fútbol con autos, donde tenés que hacer goles manejando autos. Es rápido, divertido y requiere mucha habilidad y reflejos.
+                </p>
+                <p class="juegos-recomendados__parrafo"><strong>Genero:</strong> Deportes </p>
+                <p class="juegos-recomendados__parrafo"><strong>Precio:</strong> $10.000</p>
 
-        <section class="juegos-recomendados__seccion" >
+            </article>
 
-            <h3 class="juegos-recomendados__h3">Call of duty</h3>
+            <article class="juegos-recomendados__articulo animate__animated animate__backInLeft" >
 
-            <img class="juegos-recomendados__imagen"  src="img/Cod.jpg" alt="Imagen no disponible">
+                <h3 class="juegos-recomendados__h3">Call of duty</h3>
 
-            <p class="juegos-recomendados__parrafo">Descripcion del juego: Es un juego de disparos en primera persona con modos de campaña y multijugador. Tiene mucha acción, armas variadas y mapas dinámicos.</p>
-            <p class="juegos-recomendados__parrafo">Genero: Accion y Shooter </p>
-            <p class="juegos-recomendados__parrafo">Precio: $40.000</p>
+                <img class="juegos-recomendados__imagen"  src="img/Cod.jpg" alt="Imagen no disponible">
+
+                <p class="juegos-recomendados__parrafo"><strong>Descripcion del juego:</strong> Es un juego de disparos en primera persona con modos de campaña y multijugador. Tiene mucha acción, armas variadas y mapas dinámicos.</p>
+                <p class="juegos-recomendados__parrafo"><strong>Genero:</strong> Accion y Shooter </p>
+                <p class="juegos-recomendados__parrafo"><strong>Precio:</strong> $40.000</p>
+
+            </article>
 
         </section>
 
         <!-- BLOQUE: Ranking -->
 
-        <section class="Ranking" id="Ranking">
+        <section class="Ranking animate__animated animate__backInLeft" id="Ranking">
             <h2>Ranking de juegos mas jugados: </h2>
 
             <div class="Ranking__caja">
@@ -107,7 +116,7 @@
 
                 <article class="Ranking__articulo">
 
-                    <h3 class="Ranking__nombre">2. Super Mario Bross Galaxy 2</h3>
+                    <h3 class="Ranking__nombre">3. Super Mario Bross Galaxy 2</h3>
 
                     <img class="Ranking__imagen" src="img/ranking_juegos/Super mario.jpg" alt="Super Mario Bross">
 
@@ -115,7 +124,7 @@
 
                 <article class="Ranking__articulo">
 
-                    <h3 class="Ranking__nombre">3. Donkey Kong Country</h3>
+                    <h3 class="Ranking__nombre">4. Donkey Kong Country</h3>
 
                     <img class="Ranking__imagen" src="img/ranking_juegos/Donkey kong.jpg" alt="Donkey Kong">
 
@@ -123,7 +132,7 @@
 
                 <article class="Ranking__articulo">
 
-                    <h3 class="Ranking__nombre">4. GTA V</h3>
+                    <h3 class="Ranking__nombre">5. GTA V</h3>
 
                     <img class="Ranking__imagen" src="img/ranking_juegos/GTA.png" alt="Gta V">
 
@@ -137,7 +146,7 @@
 
         <!-- Formulario de contacto: Con el elemento form agrupamos los campos como mail, nombre etc para enviarlo a un servidor -->
         
-        <form class="Formulario" id="contacto" action="https://formspree.io/f/xeevkwgq" method="post" target="_blank">
+        <form class="Formulario animate__animated animate__backInLeft" id="contacto" action="https://formspree.io/f/xeevkwgq" method="post" target="_blank">
 
             <h2 class="Formulario__h2">¿ Tenes dudas ? Contactame !!!</h2>
 
@@ -160,9 +169,9 @@
 
     <footer class="Pie-pagina">
 
-        <h2 class="Pie-pagina__subtitulo">Informacion del sitio </h2>
+        <h2 class="Pie-pagina__subtitulo animate__animated animate__backInLeft">Informacion del sitio </h2>
 
-        <ul class="Pie-pagina__listado">
+        <ul class="Pie-pagina__listado animate__animated animate__backInLeft">
             <li class="Pie-pagina__item">
                 <p class="Pie-pagina__parrafo"><strong class="Pie-pagina__strong">Nombre:</strong> Agustin Manuel Landeira  </p>
             </li>
