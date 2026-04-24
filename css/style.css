@@ -3,6 +3,7 @@
     font-family:"Roboto Condensed", sans-serif ;
 }
 
+
 .Encabezado,.Encabezado__enlace,.juegos-recomendados,.Ranking,.Pie-pagina{
     color: white;
 }
@@ -19,8 +20,18 @@
     text-align: center;
 }
 
+.Encabezado__lista{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.90rem;
+    padding: 0.20rem;
+}
+
 .Encabezado__enlace{
     text-decoration: none;
+    margin-right: 0.62rem;
+    
 
 }
 
@@ -29,10 +40,6 @@
     border-radius: 0.31rem;         /*5px;*/
 }
 
-.Encabezado__lista{
-    list-style: none;
-    
-}
 
 .juegos-recomendados{
     background-color: black;
@@ -48,6 +55,7 @@
     grid-template-columns: repeat(2,auto);
     justify-content: center;
     gap: 0.6rem;
+    
 }
 
 .juegos-recomendados__subtitulo{
@@ -68,7 +76,9 @@
 .juegos-recomendados__imagen{
 
     height: 21.9rem;
-    width: 21.9rem;
+    width: 16rem;
+    
+    /* width: 21.9rem; */
     border: 0.43rem solid hsl(0, 100%, 50%); /*7px*/
 }
 
@@ -119,7 +129,7 @@
 .Ranking__imagen{
     height: 15.6rem;/*250px*/
     width: 21.8rem;/*350px*/
-    border: 5px solid rgb(255, 0, 0);
+    border: 0.31rem solid rgb(255, 0, 0);
 }
 
 .Ranking__enlace{
