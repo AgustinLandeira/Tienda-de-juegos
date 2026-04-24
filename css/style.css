@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0rem;
     font-family:"Roboto Condensed", sans-serif ;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .Encabezado__titulo{
-    padding-top:5px
+    padding-top:0.31rem;         /*5px;*/
 }
 
 .Encabezado__titulo,.Pie-pagina{
@@ -26,8 +26,7 @@
 
 .Encabezado__enlace:hover{
     background-color: black;
-    border-radius: 5px;
-
+    border-radius: 0.31rem;         /*5px;*/
 }
 
 .Encabezado__lista{
@@ -41,36 +40,36 @@
 }
 
 .juegos-recomendados__h3{
-    margin-bottom: 5px;
+    margin-bottom:0.31rem;         /*5px;*/
 }
 
 .Juegos-recomendados__contenedor{
     display:grid;
     grid-template-columns: repeat(2,auto);
     justify-content: center;
-    gap: 10px;
+    gap: 0.6rem;
 }
 
 .juegos-recomendados__subtitulo{
-    margin-left: 10px;
+    margin-left: 0.6rem;
 }
 
 .juegos-recomendados__articulo{
     /* margin: 10px;
     margin-bottom: 5px;
     background-color: gray; */
-    margin: 20px auto;      /* centra horizontalmente */
+    margin: 1.25rem auto;      /* centra horizontalmente 20px */
     background-color: gray;
-    max-width: 500px;       /* limita el ancho */
-    padding: 10px;          /* espacio interno */
-    border-radius:10px;
+    max-width: 31.5rem;       /* limita el ancho 500px */
+    padding: 0.6rem;          /* espacio interno */
+    border-radius:0.6rem;
 }
 
 .juegos-recomendados__imagen{
 
-    height: 350px;
-    width: 350px;
-    border: 7px solid hsl(0, 100%, 50%);
+    height: 21.9rem;
+    width: 21.9rem;
+    border: 0.43rem solid hsl(0, 100%, 50%); /*7px*/
 }
 
 .juegos-recomendados__parrafo{
@@ -80,7 +79,7 @@
 
 
 .Formulario__boton{
-    width: 100px;
+    width: 6.25rem; /*100px*/
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
     font-weight: bold; /*Grosor del textp*/
@@ -103,8 +102,8 @@
 }
 
 .Ranking{
-    margin: 0px;
-    margin-bottom: 10px;
+    margin: 0rem;
+    margin-bottom: 0.62rem; /*10px;*/
     
 }
 
@@ -113,13 +112,13 @@
     display: grid;
     grid-template-columns: repeat(3,auto);/* 3 columnas, las columnas miden lo que necesite su contenido */
     justify-content: center; /*centra toda la grilla horizontalmente*/
-    gap: 10px; /*espacio entre las fotos*/
+    gap: 0.62rem; /*espacio entre las fotos*/ /*10px;*/
 
 }
 
 .Ranking__imagen{
-    height: 250px;
-    width: 350px;
+    height: 15.6rem;/*250px*/
+    width: 21.8rem;/*350px*/
     border: 5px solid rgb(255, 0, 0);
 }
 
