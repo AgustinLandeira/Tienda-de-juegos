@@ -4,6 +4,13 @@
     padding: 0px;
 }
 
+.Encabezado{
+    position: relative;
+    z-index:2;
+    box-shadow: 0px 0px 25px red;
+    padding-bottom: 0.8rem;
+}
+
 .Encabezado,.Encabezado__enlace,.juegos-recomendados,.Ranking,.Pie-pagina{
     color: white;
 }
@@ -49,6 +56,7 @@
 
 
 .juegos-recomendados{
+    padding-top:0.9rem ;
     background-color: black;
     text-align:center;
     padding-bottom: 10px;
@@ -261,6 +269,7 @@
 .Formulario__boton--enviar:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 15px green ;
+    color: black;
 }
 
 .Formulario__boton--resetear{
@@ -271,9 +280,11 @@
 .Formulario__boton--resetear:hover{
     transform: scale(1.08);
     box-shadow: 0px 0px 15px red;
+    color: black;
 }
 .Pie-pagina{
     padding: 1rem;
+    box-shadow: 0px 0px 15px red;
 }
 
 .Pie-pagina__subtitulo{
@@ -299,6 +310,7 @@
     border: 0.31rem solid rgb(255, 0, 0);
     border-radius: 2rem;
     padding: 2rem;
+    max-width: 1200px;
 }
 
 .Ranking__titulo{
