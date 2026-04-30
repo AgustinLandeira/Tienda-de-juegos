@@ -67,8 +67,9 @@
 }
 
 .Juegos-recomendados__contenedor{
-    display:grid;
-    grid-template-columns: repeat(2,auto);
+
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 0.6rem;
     
@@ -79,7 +80,7 @@
 }
 
 .juegos-recomendados__articulo{
-    margin: 1.25rem auto;      /* centra horizontalmente 20px */
+    margin: 0.9rem;      /* centra horizontalmente 20px */
     background: linear-gradient(135deg,#1a1a1a, #333);
     max-width: 31.5rem;       /* limita el ancho 500px */
     padding: 0.6rem;          /* espacio interno */
@@ -282,27 +283,7 @@
     box-shadow: 0px 0px 15px red;
     color: black;
 }
-.Pie-pagina{
-    padding: 1rem;
-    box-shadow: 0px 0px 15px red;
-}
 
-.Pie-pagina__subtitulo{
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    text-shadow: 0px 0px 15px red;
-}
-
-.Pie-pagina__listado{
-    list-style: none;
-    
-}
-
-.Pie-pagina__parrafo{
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 1rem;
-    
-}
 
 .Ranking{
     margin: 2px auto;
@@ -354,4 +335,105 @@
     box-shadow: 0px 0px 10px red;
     color: red;
     position: relative;
+}
+
+.Reseñas-seccion{
+    margin: 10px auto;
+    /* background: linear-gradient(135deg,#1a1a1a, #333);
+    border: 0.31rem solid red;
+    border-radius: 2rem; */
+    padding:2rem;
+    max-width: 1200px;
+}
+
+.Reseñas-seccion__contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 10px;
+}
+
+.Reseñas-seccion__titulo{
+
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 0px 0px 15px red;
+}
+
+.Reseñas-seccion__card{
+
+    background: linear-gradient(135deg,#1a1a1a, #333);
+    border: 0.31rem solid red;
+    border-radius: 1rem;
+    padding: 1.7rem;
+    max-width:26rem;
+}
+
+.Reseñas-seccion__autor{
+    margin: 2px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    
+}
+
+.Reseñas-seccion__comentario{
+    margin-bottom: 0.7rem;
+}
+
+.Reseñas-seccion__foto-perfil{
+    width: 80px;
+    height: 4rem;
+    border: 3px solid red;
+    border-radius: 50%;
+
+}
+
+.Reseñas-seccion__perfil{
+    padding: 1rem;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.904);
+    color: rgba(red, green, blue, alpha);
+    
+}
+
+
+.Pie-pagina{
+    padding: 1rem;
+    box-shadow: 0px 0px 15px red;
+}
+
+.Pie-pagina__subtitulo{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-shadow: 0px 0px 15px red;
+}
+
+.Pie-pagina__listado{
+    list-style: none;
+    
+}
+
+.Pie-pagina__parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    
+}
+
+@media(max-width: 720px){
+
+    .Reseñas-seccion__contenedor{
+
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media(max-width: 513px){
+
+    .Reseñas-seccion__contenedor{
+
+        grid-template-columns: repeat(1,1fr);
+    }
+
 }
